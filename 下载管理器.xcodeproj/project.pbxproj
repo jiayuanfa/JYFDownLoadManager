@@ -15,6 +15,8 @@
 		041914841E5DC74C0025F258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041914821E5DC74C0025F258 /* LaunchScreen.storyboard */; };
 		0419148F1E5DC74C0025F258 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419148E1E5DC74C0025F258 /* _____Tests.m */; };
 		0419149A1E5DC74C0025F258 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041914991E5DC74C0025F258 /* _____UITests.m */; };
+		041914AC1E5DC8230025F258 /* JYFDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 041914AB1E5DC8230025F258 /* JYFDownload.m */; };
+		2E9064421E63453B00103F8E /* JYFDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9064411E63453B00103F8E /* JYFDownloadManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		041914951E5DC74C0025F258 /* 下载管理器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下载管理器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041914991E5DC74C0025F258 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		0419149B1E5DC74C0025F258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041914AA1E5DC8230025F258 /* JYFDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYFDownload.h; sourceTree = "<group>"; };
+		041914AB1E5DC8230025F258 /* JYFDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYFDownload.m; sourceTree = "<group>"; };
+		2E9064401E63453B00103F8E /* JYFDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYFDownloadManager.h; sourceTree = "<group>"; };
+		2E9064411E63453B00103F8E /* JYFDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYFDownloadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				041914781E5DC74C0025F258 /* AppDelegate.m */,
 				0419147A1E5DC74C0025F258 /* ViewController.h */,
 				0419147B1E5DC74C0025F258 /* ViewController.m */,
+				2E9064401E63453B00103F8E /* JYFDownloadManager.h */,
+				2E9064411E63453B00103F8E /* JYFDownloadManager.m */,
+				041914AA1E5DC8230025F258 /* JYFDownload.h */,
+				041914AB1E5DC8230025F258 /* JYFDownload.m */,
 				0419147D1E5DC74C0025F258 /* Main.storyboard */,
 				041914801E5DC74C0025F258 /* Assets.xcassets */,
 				041914821E5DC74C0025F258 /* LaunchScreen.storyboard */,
@@ -274,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0419147C1E5DC74C0025F258 /* ViewController.m in Sources */,
+				041914AC1E5DC8230025F258 /* JYFDownload.m in Sources */,
+				2E9064421E63453B00103F8E /* JYFDownloadManager.m in Sources */,
 				041914791E5DC74C0025F258 /* AppDelegate.m in Sources */,
 				041914761E5DC74B0025F258 /* main.m in Sources */,
 			);
@@ -423,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "下载管理器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vpgame.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "下载管理器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vpgame.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +519,7 @@
 				041914A01E5DC74C0025F258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041914A11E5DC74C0025F258 /* Build configuration list for PBXNativeTarget "下载管理器Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +528,7 @@
 				041914A31E5DC74C0025F258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041914A41E5DC74C0025F258 /* Build configuration list for PBXNativeTarget "下载管理器UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +537,7 @@
 				041914A61E5DC74C0025F258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
